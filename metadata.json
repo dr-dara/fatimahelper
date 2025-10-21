@@ -1,0 +1,5 @@
+{
+  "name": "Fatima Trip Organizer's Helper",
+  "description": "A simple application to help trip organizers track participant applications and payments. Add new contacts, and update their status from application sent to cheque lodged.",
+  "requestFramePermissions": []
+}
