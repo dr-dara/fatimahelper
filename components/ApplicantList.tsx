@@ -37,28 +37,28 @@ const ApplicantList = ({ applicants, onUpdate, onDelete }) => (
                 <td>{applicant.address}</td>
                 <td>{applicant.eircode}</td>
                 <td>{applicant.phone}</td>
-                <td>
+                <td style={{ textAlign: 'center' }}>
                   <input
                     type="checkbox"
                     checked={!!applicant.application_sent}
                     onChange={e => onUpdate(applicant.id, { application_sent: e.target.checked })}
                   />
                 </td>
-                <td>
+                <td style={{ textAlign: 'center' }}>
                   <input
                     type="checkbox"
                     checked={!!applicant.application_returned}
                     onChange={e => onUpdate(applicant.id, { application_returned: e.target.checked })}
                   />
                 </td>
-                <td>
+               <td style={{ textAlign: 'center' }}>
                   <input
                     type="checkbox"
                     checked={!!applicant.cheque_received}
                     onChange={e => onUpdate(applicant.id, { cheque_received: e.target.checked })}
                   />
                 </td>
-                <td>
+                <td style={{ textAlign: 'center' }}>
                   <input
                     type="checkbox"
                     checked={!!applicant.cheque_lodged}
