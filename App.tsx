@@ -114,7 +114,7 @@ const App: React.FC = () => {
       <header className="bg-white shadow-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
           <div>
-            <h1 className="text-2xl font-bold text-primary-800">Trip Organizer's Helper</h1>
+            <h1 className="text-2xl font-bold text-primary-800">FATIMA Trip Helper</h1>
             <p className="text-slate-500 mt-1">Manage your trip participants with ease.</p>
           </div>
           <button
