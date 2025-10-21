@@ -115,7 +115,7 @@ const App: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
           <div>
             <h1 className="text-2xl font-bold text-primary-800">FATIMA Trip Helper</h1>
-            <p className="text-slate-500 mt-1">Manage your trip participants with ease.</p>
+            <p className="text-slate-500 mt-1">Keep Praying that it all goes well.</p>
           </div>
           <button
             onClick={() => setIsFormVisible(!isFormVisible)}
